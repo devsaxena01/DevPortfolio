@@ -4,7 +4,7 @@ import { TechstackList } from '../../Utils/TechstackList'
 const Techstack = () => {
   return (
     <>
-    <div className="container techstack">
+    <div className="container techstack" id='tech-stack'>
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Technologies Stack</h2>
         <hr/>
         <p className="pb-3 text-center">  As a computer and information systems

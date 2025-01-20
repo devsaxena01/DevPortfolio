@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
   return (
     <>
-    <div className="about">
+    <div className="about" id='about'>
         <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-6 about-img">
             <img src="https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-63.jpg" alt="Dev Saxena"/>
