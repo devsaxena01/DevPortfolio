@@ -37,7 +37,7 @@ const About = () => {
                             <div key={key}>
                                 <div className='flex items-center md:mb-2'>
                                     <span className='text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce drop-shadow-2xl'>{number}</span>
-                                    <span className='text-sky-400 font-semibold md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce drop-shadow-2xl'>+</span>
+                                    <span className='text-sky-400 font-semibold md:text-3xl  text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce drop-shadow-2xl'>+</span>
                                 </div>
                                 <p className='text-yellow-300'>{label}</p>
                             </div>
