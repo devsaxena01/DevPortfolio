@@ -17,33 +17,33 @@ const projects = [
     projectLink: 'https://github.com/devsaxena01'
   },
   {
-    imgSrc: '/images/Blog-app.png',
+    imgSrc: '/images/ai-finance-tracker.jpg',
+    title: 'AI Finance Tracker',
+    desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
+    tags: ['Web-design', 'Development'],
+    projectLink: 'https://github.com/devsaxena01'
+  },
+  {
+    imgSrc: '/images/blog-app.png',
     title: 'Blog app',
     desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
     tags: ['Development', 'API'],
     projectLink: 'https://github.com/devsaxena01'
   },
   {
-    imgSrc: '/images/download.jpg',
-    title: 'Portfolio',
-    desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/devsaxena01'
+    imgSrc: '/images/todo-app.png',
+    title: 'TODO App',
+    desc:['• Built a task management application with features to add, edit, delete, and mark tasks as completed.', '• Designed a responsive UI using Tailwind CSS, ensuring seamless usability across mobile, tablet, and desktop.' ,'• Implemented state management in React.js for real-time task updates and optimized performance.' ,'• Enhanced user productivity by providing a clean and intuitive interface for managing daily tasks.' ,'• Focused on performance optimization and best practices in React for smooth user experience.'],
+    tags: ['ReactJS', 'Tailwind CSS'],
+    projectLink: 'https://todo-app-sksd.onrender.com/'
   },
-  {
-    imgSrc: '/images/download.jpg',
-    title: 'eCommerce website',
-    desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/devsaxena01'
-  },
-  {
-    imgSrc: '/images/download.jpg',
-    title: 'vCard Personal portfolio',
-    desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/devsaxena01'
-  },
+    {
+    imgSrc: '/images/portfolio.png',
+    title: 'Personal Portfolio Website',
+    desc:['• Designed and developed a responsive personal portfolio website using React.js and Tailwind CSS, optimized for cross-device compatibility.', '• Showcased projects and skills with a modern UI/UX design for enhanced user engagement.' ,'• Integrated contact form functionality with Getform for seamless message handling and submissions.' ,'• Implemented performance optimization techniques in React to ensure fast loading and smooth navigation.' ,'• Deployed a fully functional, mobile-friendly website to highlight professional work and achievements.'],
+    tags: ['ReactJS', 'TailwindCSS' , 'Getform'],
+    projectLink: 'https://github.com/devsaxena01/DevPortfolio'
+  }
 ];
 
 const Projects = () => {
