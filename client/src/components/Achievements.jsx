@@ -63,7 +63,7 @@ const Achievements = () => {
         {educationData.map(({title , description , links}, key) => (
           <div
             key={key}
-            className="bg-gray-100 dark:bg-gray-800 rounded-2xl shadow-md p-6 hover:shadow-lg transition-shadow"
+            className="bg-gray-800 dark:bg-gray-800 rounded-2xl shadow-md p-6 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-2xl font-semibold text-indigo-700">{title}</h3>
 
