@@ -24,7 +24,7 @@ const projects = [
     projectLink: 'https://github.com/devsaxena01'
   },
   {
-    imgSrc: '/images/blog-app.png',
+    imgSrc: '/images/blog-app.jpeg',
     title: 'Blog app',
     desc:['•Designed and implemented a scalable backend using Node.js and Express.js, following MVC architecture.', '• Engineered MongoDB database schema for property listings and user data, achieving query response times under 200ms.' ,'• Implemented Google and GitHub OAuth authentication using Passport.js with secure session handling.' ,'• Integrated Geoapify API to display property locations dynamically.' ,'• Used Joi for schema validation and flash messages for error handling.' ,'• Integrated Multer for seamless image uploads and storage.' ,'• Built a fully responsive UI using React for a smooth user experience.'],
     tags: ['Development', 'API'],
