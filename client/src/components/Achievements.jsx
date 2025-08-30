@@ -71,7 +71,7 @@ const Achievements = () => {
                     {description.map((label , key) =>(
                         <span 
                         key={key}
-                        className=' mt-2 text-sm grid items-center  rounded-lg font-medium text-gray-700 dark:text-gray-300'>
+                        className=' mt-2 text-sm grid items-center  rounded-lg font-medium text-gray-300'>
                             {label}
                          </span>
                     ))}

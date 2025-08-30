@@ -33,9 +33,9 @@ const Education = () => {
             className="bg-gray-800 rounded-2xl shadow-md p-6 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-2xl font-semibold text-indigo-700">{degree}</h3>
-            <p className=" mt-1 text-md font-medium text-gray-700 dark:text-gray-300">{institution}</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400">{year}</p>
-            <p className="mt-2 text-gray-600 dark:text-gray-200">{description}</p>
+            <p className=" mt-1 text-md font-medium text-gray-300 ">{institution}</p>
+            <p className="text-sm text-gray-300 ">{year}</p>
+            <p className="mt-2 text-gray-300">{description}</p>
           </div>
         ))}
       </div>
