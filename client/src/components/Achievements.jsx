@@ -9,7 +9,7 @@ const educationData = [
   {
     title: 'Codechef',
     description: ['2* on Codechef with Max Rating 1405+'],
-    links: 'https://www.codechef.com/users/saxenadev7668',
+    links: 'https://www.codechef.com/users/devsaxena6587',
   },
   {
     title: 'Codeforces',
